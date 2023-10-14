@@ -1,1 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+.one h2{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.one .p1{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: darkorchid;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+    word-spacing: 20px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+
+.one .p2{
+    border: 2px solid darkorchid;
+    width: 100px;
+    height: 100px;
+    text-overflow: clip;
+    overflow: scroll;
+    word-break: break-all;
+}
+
+.two h2{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.two p{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
