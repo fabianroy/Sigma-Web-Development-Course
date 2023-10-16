@@ -1,1 +1,17 @@
+h1{
+    color: black;
+}
 
+.RED{
+    color: red;
+}
+
+/*Specifity of h1.BLUE is higher than .BLUE*/
+
+h1.BLUE{
+    color: blue;
+}
+
+.GREEN{
+    color: green;
+}
