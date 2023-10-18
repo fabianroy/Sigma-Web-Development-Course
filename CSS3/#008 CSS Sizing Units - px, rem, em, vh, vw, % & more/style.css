@@ -1,1 +1,28 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 12px;
+}
+
+.box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 80vw;
+    margin: auto;
+}
+
+.container{
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 80vmin;
+    font-size: 1em;
+    margin: 23px auto;
+}
+
+.container p{
+    font-size: 1.5rem;
+}
