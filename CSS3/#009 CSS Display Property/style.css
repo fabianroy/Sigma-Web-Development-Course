@@ -1,1 +1,34 @@
+.p{
+    background-color: red;
+    display: inline;
+}
 
+span{
+    background-color: yellow;
+    display: block;
+}
+
+.two{
+    display: none;
+}
+
+.fruits li{
+    display: inline;
+    margin-inline-end: 8px;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container ul li{
+    display: inline;
+    margin-inline-end: 8px;
+}
