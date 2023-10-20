@@ -1,0 +1,6 @@
+nav ul li{
+    list-style: square;
+    list-style-position: inside;
+    display: inline;
+    margin-inline-end: 20px;
+}
