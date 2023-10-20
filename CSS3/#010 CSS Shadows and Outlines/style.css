@@ -1,1 +1,79 @@
+.one{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.one div{
+    background-color: rgb(255, 184, 255);
+    width: 150px;
+    height: auto;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 2px black;
+    transition-duration: 0.3s;
+}
+
+.one div:hover{
+    background-color: rgb(255, 8, 255);
+    color: white;
+    width: 150px;
+    height: auto;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 30px 2px black;
+}
+
+.two{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two div{
+    background-color: rgb(255, 184, 255);
+    width: 150px;
+    height: auto;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 30px 2px black;
+    transition-duration: 0.3s;
+}
+
+.two div:hover{
+    background-color: rgb(248, 0, 248);
+    color: white;
+    width: 150px;
+    height: auto;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 2px black;
+}
+
+.hello{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    outline: 5px solid black;
+    outline-offset: 5px;
+    border: 5px solid green;
+    border-radius: 5px;
+}
