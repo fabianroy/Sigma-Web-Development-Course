@@ -1,1 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+/* Global Variable */
+:root {
+    --color: rgb(227, 0, 106);
+    --seccolor: rgb(175, 175, 255);
+    --defpad: 35px;
+    --defop: 0.5;
+}
+
+.nav {
+    background-color: var(--color);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    opacity: var(--defop);
+    list-style: none;
+    padding: var(--defpad);
+    border: 2px solid var(--seccolor);
+}
+
+/* Local Vatiable */
+ul li:first-child {
+    --color: rgb(255, 3, 3);
+    background-color: var(--color);
+}
+
+.container {
+    background-color: var(--seccolor);
+}
