@@ -1,1 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --nav-bg-color: rgb(194, 38, 194);
+    --body-bg-color: rgb(255, 207, 255);
+    --font-color: #fff;
+    --shadow-color: #000;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+nav {
+    background-color: var(--nav-bg-color);
+    box-shadow: 0px 0px 5px 1px var(--shadow-color);
+}
+
+nav ul {
+    padding: 20px 10px;
+    color: var(--font-color);
+    font-family: sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 16px;
+    font-size: 18px;
+}
