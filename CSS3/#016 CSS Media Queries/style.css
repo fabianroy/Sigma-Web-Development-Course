@@ -1,0 +1,27 @@
+body{
+    background-color: red;
+}
+
+div{
+    font-size: 50px;
+    color: #000;
+    background-color: green;
+    width: fit-content;
+    padding: 50px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+
+    div{
+        font-size: 20px;
+        color: #fff;
+        background-color: rebeccapurple;
+        width: fit-content;
+        padding: 50px;
+        margin: auto;
+    }
+}
