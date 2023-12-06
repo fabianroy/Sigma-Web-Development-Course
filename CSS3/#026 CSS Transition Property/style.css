@@ -1,1 +1,20 @@
+.container{
+    background-color: aqua;
+    width: 50vw;
+    height: 40vh;
+}
 
+.box{
+    background-color: green;
+    width: 5vw;
+    height: 4vh;
+    /* transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+    transition: all 3s ease-in-out 1s;
+}
+
+.box:hover{
+    transform: translateX(10vw) translateY(10vh);
+}
